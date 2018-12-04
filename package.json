@@ -1,0 +1,24 @@
+{
+  "name": "shixiongdao-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "node server.js",
+    "export": "next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "normalize.css": "^8.0.1",
+    "r2": "^2.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
