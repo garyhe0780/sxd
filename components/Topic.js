@@ -21,69 +21,6 @@ export default ({item, index}) => (
                 width: 100%;
                 display: block;
                 position: relative;
-            },
-            .h2 {
-                font-size: 24px;
-            }
-            .f5 {
-                font-size: 14px;
-            }
-            .text-gray-white {
-                color: white;
-            }
-            .text-gray-dark {
-                color: #24292e;
-            }
-            .position-relative: {
-                position: relative;
-            }
-            .height-full {
-                height: 100%;
-            }
-            .d-flex {
-                display: flex;
-            }
-            .no-underline {
-                text-decoration: none;
-            }
-            .width-fit {
-                width: 100%;
-            }
-            .mx-auto {
-                margin: 0 auto;
-            }
-            .fl-g-2 {
-                flex-grow: 2;
-            }
-            .mx-2 {
-                margin: 0 8px;
-            }
-            .mt-4 {
-                margin: 16px 0 0; 
-            }
-            .p-6 {
-                padding: 24px;
-            }
-            .position-absolute {
-                position: absolute;
-            }
-            .top-0 {
-                top: 0;
-            }
-            .right-0 {
-                right: 0;
-            }
-            .bottom-0 {
-                bottom: 0;
-            }
-            .left-0 {
-                left: 0;
-            }
-            .overflow-hidden {
-                overflow: hidden;
-            }
-            .z-index-100 {
-                z-index: 100;
             }
         `}
         </style>

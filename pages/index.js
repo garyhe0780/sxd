@@ -14,24 +14,6 @@ const Index = ({topics}) => (
                 )))}
             </div>
         </div>
-        <style jsx>{`
-            .px-4 {
-                padding: 0 16px;
-            }
-            .bg-grey-dark {
-                background-color: #24292e;
-            }
-            .container-xl {
-                max-width: 1280px;
-                width: 100%;
-                margin: 0 auto;
-            }
-            .d-lg-flex {
-                display: flex;
-                flex-wrap: wrap;
-            }
-        `}
-        </style>
     </Layout>
 );
 

@@ -4,16 +4,10 @@ const next = require('next');
 const dev = false;
 const app = next({ dev});
 const handle = app.getRequestHandler();
-const serve = (path, cache) => express.static(resolve(path), {
-  maxAge: cache && !dev ? 1000 * 60 * 60 * 24 * 30 : 0
-});
 
 app.prepare()
 .then(() => {
   const server = express()
-
-  // serve static file
-  app.use('/static', serve('./static', true));
 
   server.get('/p/:id', (req, res) => {
     const actualPage = '/post'
